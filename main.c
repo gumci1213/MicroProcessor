@@ -11,9 +11,9 @@ int main(void)
 
 	LCD_Init();
 	LCD_wBCommand(0x80 | 0x00);
-	LCD_wString("Jo OYeon");
+	LCD_wString("First Line");
 	LCD_wBCommand(0x80 | 0x40);
-	LCD_wString("An JiYong");
+	LCD_wString("Second Line");
 	while (1)
 	{
 		
